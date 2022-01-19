@@ -1,0 +1,33 @@
+server:
+  port: 7074
+  servlet:
+    context-path: /factures
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:25001/eureka/
+
+spring:
+  jpa:
+    properties:
+      hibernate:
+        show_sql: false
+        format_sql: false
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3306/ceefac_factures
+    username: sigec
+    password: Sigec@Ceenet2020
+
+
+logging:
+  level:
+    root: ERROR
+    org.springframework: ERROR
+    com.ceenet.sigec.ws: DEBUG
+    org.hibernate.type: ERROR
+  pattern:
+    console: "%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+    file: "%d %p %c{1.} [%t] %m%n"
