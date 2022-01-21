@@ -1,7 +1,7 @@
 server:
   port: 7074
   servlet:
-    context-path: /factures
+    context-path: /invoices
 
 eureka:
   client:
