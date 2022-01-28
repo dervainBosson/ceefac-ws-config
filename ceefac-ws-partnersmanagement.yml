@@ -26,8 +26,8 @@ logging:
   level:
     root: ERROR
     org.springframework: ERROR
-    com.ceenet.sigec.ws: DEBUG
+    com.ceenet.ceefac.ws: DEBUG
     org.hibernate.type: ERROR
   pattern:
-    console: "%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+    console: "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
     file: "%d %p %c{1.} [%t] %m%n"
