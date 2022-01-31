@@ -1,5 +1,5 @@
 server:
-  port: 7076
+  port: 70760
   servlet:
     context-path: /authenticator
 
