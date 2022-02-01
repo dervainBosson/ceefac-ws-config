@@ -1,5 +1,5 @@
 server:
-  port: 7074
+  port: 7078
   servlet:
     context-path: /invoices
 
