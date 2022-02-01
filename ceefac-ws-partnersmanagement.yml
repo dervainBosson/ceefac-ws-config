@@ -17,7 +17,7 @@ spring:
     hibernate:
       ddl-auto: update
   datasource:
-    url: jdbc:mysql://localhost:3306/partnermanagement
+    url: jdbc:mysql://localhost:3306/ceefac_partnermanagement
     username: sigec
     password: Sigec@Ceenet2020
 
