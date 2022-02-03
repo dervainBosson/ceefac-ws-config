@@ -26,7 +26,7 @@ logging:
   level:
     root: ERROR
     org.springframework: ERROR
-    com.ceenet.ceefac.ws: DEBUG
+    #com.ceenet.ceefac.ws: DEBUG
     org.hibernate.type: ERROR
   pattern:
     console: "%d{yyyy-mm-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
