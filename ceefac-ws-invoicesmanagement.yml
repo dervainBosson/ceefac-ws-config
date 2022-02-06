@@ -26,8 +26,8 @@ spring:
     username: device@ceenettechnologies.com
     password: device@2021
     properties.mail.smtp:
-    auth: true
-    starttls.enable: true
+      auth: true
+      starttls.enable: true
     
 
 
