@@ -15,7 +15,7 @@ eureka:
 
 spring:
   application:
-    name: notification
+    name: sigec-ws-notification
   jpa:
     hibernate:
       ddl-auto: update
