@@ -16,6 +16,6 @@ logging:
   level:
     root: ERROR
     org.apache.http: ERROR
-    com.ceenet.ceefac: DEBUG
+    com.ceenet.ceefac.ws: DEBUG
     httpclient:
       wire: ERROR
